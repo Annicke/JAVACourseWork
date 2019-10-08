@@ -49,10 +49,12 @@ public class registrationSteps {
 
     @Then("^The message \"([^\"]*)\" is displayed$")
     public void the_message_is_displayed(String messages) throws Throwable {
-        Assert.assertTrue(registration.DisplayMessage());
-       Assert.assertTrue (registration.DisplayMessage2());
-        Assert.assertTrue(registration.DisplayMessage3());
-       Assert.assertTrue (registration.DisplayMessage4());
+
+        Thread.sleep(5000);
+        Assert.assertEquals(registration.GetMessage(messages),messages,"The Captcha field is required.");
+       Assert.assertEquals(registration.GetMessage2(messages),messages,"The Captcha field is required.");
+        Assert.assertEquals(registration.GetMessage3(messages),messages, "The Email Address field must contain a valid email address.");
+       Assert.assertEquals(registration.GetMessage4(messages),messages,"The Confirm Password field does not match the Password field.");
     }
 
 

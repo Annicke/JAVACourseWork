@@ -15,6 +15,13 @@
       </list>
     </option>
   </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1RQOWCoEPvG09j72YH2wTCt4IGr" />
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/stepdefs" />
@@ -40,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Feature: forsale">
+  <component name="RunManager" selected="Cucumber java.Feature: login">
     <configuration name="Feature: forsale" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/forsale.feature" />
@@ -97,9 +104,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Feature: forsale" />
-        <item itemvalue="Cucumber java.Feature: registration" />
         <item itemvalue="Cucumber java.Feature: login" />
+        <item itemvalue="Cucumber java.Feature: registration" />
+        <item itemvalue="Cucumber java.Feature: forsale" />
       </list>
     </recent_temporary>
   </component>

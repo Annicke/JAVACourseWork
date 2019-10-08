@@ -43,9 +43,11 @@ public class forsaleSteps {
        forsale.ClickSearchB();
     }
 
+    
     @Then("^the result \"([^\"]*)\"$")
     public void the_result(String result) throws Throwable {
-        Assert.assertEquals(forsale.MessageIsDisplayed(), "0 properties found");
+        Thread.sleep(5000);
+        Assert.assertEquals(forsale.MessageIsDisplayed(),result, "0 properties found");
     }
 
 }

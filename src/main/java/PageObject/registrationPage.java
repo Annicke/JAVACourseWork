@@ -51,7 +51,7 @@ public class registrationPage {
     @FindBy(how = How.CSS, using ="#dng_msg > p:nth-child(1)")
     private WebElement mesg3;
 
-    @FindBy(how = How.CSS, using ="#dng_msg > p:nth-child(2)")
+    @FindBy(how = How.XPATH, using =" //p[contains(text(),'The Confirm Password field does not match the Password field.')]")
     private WebElement mesg4;
 
     public void ClickOnRegisterButton(){
@@ -84,17 +84,17 @@ public class registrationPage {
     public void ClickOnCreateAccount(){
         createaccount.click();
     }
-    public boolean DisplayMessage(){
-        return mesg1.isDisplayed();
+    public String GetMessage(String messages){
+        return mesg1.getText();
     }
-    public boolean DisplayMessage2(){
-        return mesg2.isDisplayed();
+    public String GetMessage2(String messages){
+        return mesg2.getText();
     }
-    public boolean DisplayMessage3(){
-        return mesg3.isDisplayed();
+    public String GetMessage3(String messages){
+        return mesg3.getText();
     }
-    public boolean DisplayMessage4(){
-        return mesg4.isDisplayed();
+    public String GetMessage4(String messages){
+        return mesg4.getText();
     }
 
 
