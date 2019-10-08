@@ -43,7 +43,6 @@ public class forsaleSteps {
        forsale.ClickSearchB();
     }
 
-    
     @Then("^the result \"([^\"]*)\"$")
     public void the_result(String result) throws Throwable {
         Thread.sleep(5000);

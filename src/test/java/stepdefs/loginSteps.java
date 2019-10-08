@@ -63,7 +63,7 @@ public class loginSteps {
         Assert.assertTrue(login.DisplayLoginButton());
     }
 
-   /* @Then("^I am not registered$")
+  /* @Then("^I am not registered$")
     public void i_am_not_registered() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         throw new PendingException();
