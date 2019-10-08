@@ -1,0 +1,4 @@
+stepdefs\loginSteps.class
+stepdefs\registrationSteps.class
+stepdefs\forsaleSteps.class
+TestRunner.class

@@ -1,0 +1,762 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 16,
+        "name": "",
+        "description": "",
+        "id": "for-sale;;valid-for-sale;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click on for sale page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "enter \"House\", \"3\", \"2\",\"No Min\",\"400,000\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I click on search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the result \"0 properties found\"",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "",
+        "description": "",
+        "id": "for-sale;;valid-for-sale;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click on for sale page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "enter \"Flat\", \"1\", \"1\",\"No Min\",\"100,000\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I click on search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the result \"0 properties found\"",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 22,
+            "value": "# No maximum price"
+          }
+        ],
+        "line": 23,
+        "name": "",
+        "description": "",
+        "id": "for-sale;;invalid-for-sale;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click on for sale page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "enter \"House\", \"1\", \"3\",\"No Min\",\"No Max\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I click on search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the result \"0 properties found\"",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 24,
+            "value": "# No bathroom selected"
+          }
+        ],
+        "line": 25,
+        "name": "",
+        "description": "",
+        "id": "for-sale;;invalid-for-sale;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I click on for sale page",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "enter \"Flat\", \"4\", \"\",\"10,000\",\"100,000\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I click on search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the result \"0 properties found\"",
+            "match": {},
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "For sale",
+    "description": "As a user of Propertyrete\r\nI want to click on for sale page\r\nSo that I can make any search.",
+    "id": "for-sale",
+    "keyword": "Feature",
+    "uri": "forsale.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "Valid login",
+        "description": "",
+        "id": "login;valid-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I enter EmailAddress \"blessings4u10@gmail.com\",",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter Password \"12345hs \"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on Sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should be registered",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Invalid login -Wrong Email",
+        "description": "",
+        "id": "login;invalid-login--wrong-email",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I enter wrong EmailAddress \"sibaveun2016.@c \"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "I enter Password \"12345hs \"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "I click on Sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Login button shows",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "login",
+    "description": "As a user\r\nI want to login\r\nso that I can use the site",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on register",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Valid \u0026 Invalid registration",
+        "description": "",
+        "id": "registration;valid-\u0026-invalid-registration;valid-registration;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter \"Anne\",\"Mensi\",\"blessings4u10@gmail.com\",\"07575555555\",\"12345hs\",\"12345hs\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on create account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "The message \"The Captcha field is required.\" is displayed",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on register",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Valid \u0026 Invalid registration",
+        "description": "",
+        "id": "registration;valid-\u0026-invalid-registration;valid-registration;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter \"Annicke\",\"grandi\",\"gif@myautomation.33mail.com\",\"07576543212\",\"12345hs\",\"12345hs\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on create account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "The message \"The Captcha field is required.\" is displayed",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on register",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 24,
+            "value": "# wrong email"
+          }
+        ],
+        "line": 25,
+        "name": "Valid \u0026 Invalid registration",
+        "description": "",
+        "id": "registration;valid-\u0026-invalid-registration;invalid-registration;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter \"Anne\",\"Mensi\",\"blessings4u10@gm.om\",\"07575555555\",\"12345hs\",\"12345hs\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on create account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "The message \"The Email Address field must contain a valid email address.\" is displayed",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I navigate to the site \"https://propertyrete.com\"",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on register",
+            "match": {},
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "comments": [
+          {
+            "line": 26,
+            "value": "# uncorresponding password"
+          }
+        ],
+        "line": 27,
+        "name": "Valid \u0026 Invalid registration",
+        "description": "",
+        "id": "registration;valid-\u0026-invalid-registration;invalid-registration;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter \"Annicke\",\"grandi\",\"gif@myautomation.33mail.com\",\"07576543212\",\"12345hs\",\"1234\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on create account",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "The message \"The Confirm Password field does not match the Password field.\" is displayed",
+            "match": {},
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration",
+    "description": "As a user\r\nI want to register\r\nso that I can use the site",
+    "id": "registration",
+    "keyword": "Feature",
+    "uri": "registration.feature"
+  }
+]
